@@ -1,0 +1,8 @@
+= h2 server from maven project
+
+instructions:
+
+git clone
+mvn compile bathe:run
+
+if you need to add parameters, add them to the booterArguments configuration in the pom.
