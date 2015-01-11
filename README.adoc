@@ -2,7 +2,14 @@
 
 instructions:
 
-git clone
+git clone https://github.com/rvowles/h2-standalone-server.git
 mvn compile bathe:run
 
 if you need to add parameters, add them to the booterArguments configuration in the pom.
+
+if you need to package it, just
+
+mvn clean package
+
+and then java -jar whatever.jar --params
+
